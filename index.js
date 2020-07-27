@@ -31,15 +31,15 @@ function makeSound(key) {
       audio.play();
       break;
     case "j":
-      var audio = new Audio("sounds/crash.mp3");
+      var audio = new Audio("sounds/snare.mp3");
       audio.play();
       break;
     case "k":
-      var audio = new Audio("sounds/kick-bass.mp3");
+      var audio = new Audio("sounds/crash.mp3");
       audio.play();
       break;
     case "l":
-      var audio = new Audio("sounds/snare.mp3");
+      var audio = new Audio("sounds/kick-bass.mp3");
       audio.play();
       break;
     default:
